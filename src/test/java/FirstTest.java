@@ -17,6 +17,7 @@ import static java.time.Duration.*;
 public class FirstTest {
     WebDriver driver;
     WebElement contactButton;
+    WebElement serviceText;
     JavascriptExecutor jse;
     @BeforeClass
     public void setUp(){
@@ -35,6 +36,8 @@ public class FirstTest {
         Assert.assertTrue(contactButton.isDisplayed());
     }
 
+
+
     @Test(priority = 2)
     public void contactButtonTextIsCorrect(){
         Assert.assertEquals(contactButton.getText(),"Contact");
@@ -46,5 +49,11 @@ public class FirstTest {
         sleep(3000);
         WebElement scrollTop= driver.findElement(By.cssSelector("svg.ast-arrow-svg"));
         Assert.assertTrue(scrollTop.isDisplayed());
+    }
+
+    @Test(priority = 5)
+    public void servicesTextDisplayed()  {
+        serviceText=driver.findElement(By.xpath("//div[@class = 'elementor-element elementor-element-dedb238 elementor-widget elementor-widget-heading']/div[@class = 'elementor-widget-container']/h3[@class = \"elementor-heading-title elementor-size-default\"]"));
+        Assert.assertTrue(serviceText.isDisplayed());
     }
 }
