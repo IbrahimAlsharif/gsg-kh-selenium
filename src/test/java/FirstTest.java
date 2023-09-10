@@ -13,6 +13,7 @@ import java.time.Duration;
 
 import static java.lang.Thread.sleep;
 import static java.time.Duration.*;
+import static org.apache.commons.lang3.ThreadUtils.sleep;
 
 public class FirstTest {
     WebDriver driver;
@@ -46,5 +47,6 @@ public class FirstTest {
         sleep(3000);
         WebElement scrollTop= driver.findElement(By.cssSelector("svg.ast-arrow-svg"));
         Assert.assertTrue(scrollTop.isDisplayed());
+
     }
 }
