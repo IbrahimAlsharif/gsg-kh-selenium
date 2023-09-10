@@ -10,7 +10,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
-
 import static java.lang.Thread.sleep;
 import static java.time.Duration.*;
 
