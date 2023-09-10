@@ -47,4 +47,20 @@ public class FirstTest {
         WebElement scrollTop= driver.findElement(By.cssSelector("svg.ast-arrow-svg"));
         Assert.assertTrue(scrollTop.isDisplayed());
     }
+
+    @Test(priority = 5)
+    public void AboutUsIsDisplayed() throws InterruptedException {
+        jse.executeScript("window.scrollBy(0,700)");
+        sleep(3000);
+        WebElement AboutUs= driver.findElement(By.xpath("//*[@id=\"About\"]/div/div[1]/div/div[1]/div/h2"));
+        Assert.assertTrue(AboutUs.isDisplayed());
+    }
+    //
+
+    @Test(priority = 6)
+    public void WhyUsIsDisplayed() throws InterruptedException {
+        sleep(3000);
+        WebElement WhyUs= driver.findElement(By.xpath("//*[@id=\"menu-item-419\"]/a"));
+        Assert.assertTrue(WhyUs.isDisplayed());
+    }
 }

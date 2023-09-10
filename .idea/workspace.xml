@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e3b47c7-0d6e-49df-be5e-120305c8b634" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="5e3b47c7-0d6e-49df-be5e-120305c8b634" name="Changes" comment="ver1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +24,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -44,16 +49,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "baselshab",
+    "ignore.virus.scanning.warn.message": "true",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.FirstTest (1)">
+}]]></component>
+  <component name="RunManager" selected="TestNG.FirstTest.WhyUsIsDisplayed">
     <configuration name="FirstTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="GSGKH-initilization" />
       <option name="PACKAGE_NAME" value="" />
@@ -65,22 +70,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstTest.AboutUsIsDisplayed" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="GSGKH-initilization" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FirstTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="AboutUsIsDisplayed" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTest.complexTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstTest.WhyUsIsDisplayed" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="GSGKH-initilization" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FirstTest" />
-      <option name="METHOD_NAME" value="complexTest" />
+      <option name="METHOD_NAME" value="WhyUsIsDisplayed" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -100,11 +106,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTest.simpleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstTest.scrollTopIsDisplayed" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="GSGKH-initilization" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FirstTest" />
-      <option name="METHOD_NAME" value="simpleTest" />
+      <option name="METHOD_NAME" value="scrollTopIsDisplayed" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -114,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.FirstTest.WhyUsIsDisplayed" />
+        <item itemvalue="TestNG.FirstTest.AboutUsIsDisplayed" />
+        <item itemvalue="TestNG.FirstTest.scrollTopIsDisplayed" />
         <item itemvalue="TestNG.FirstTest (1)" />
         <item itemvalue="TestNG.FirstTest.contactButtonTextIsCorrect" />
-        <item itemvalue="TestNG.FirstTest" />
-        <item itemvalue="TestNG.FirstTest.complexTest" />
-        <item itemvalue="TestNG.FirstTest.simpleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -131,6 +137,15 @@
       <option name="presentableId" value="Default" />
       <updated>1693658849742</updated>
     </task>
+    <task id="LOCAL-00001" summary="ver1">
+      <option name="closed" value="true" />
+      <created>1694345721577</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694345721577</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,5 +158,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ver1" />
+    <option name="LAST_COMMIT_MESSAGE" value="ver1" />
   </component>
 </project>
