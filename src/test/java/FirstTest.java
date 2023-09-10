@@ -56,4 +56,10 @@ public class FirstTest {
         serviceText=driver.findElement(By.xpath("//div[@class = 'elementor-element elementor-element-dedb238 elementor-widget elementor-widget-heading']/div[@class = 'elementor-widget-container']/h3[@class = \"elementor-heading-title elementor-size-default\"]"));
         Assert.assertTrue(serviceText.isDisplayed());
     }
+    @Test(priority = 6)
+
+    public void servicesTextIsCorrect(){
+        Assert.assertEquals(serviceText.getText(),"Software Testing Services");
+    }
+
 }
