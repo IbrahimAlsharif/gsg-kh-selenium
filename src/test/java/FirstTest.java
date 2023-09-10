@@ -40,7 +40,7 @@ public class FirstTest {
         Assert.assertEquals(contactButton.getText(),"Contact");
     }
 
-    @Test(priority = 4)
+    @Test(priority = 3)
     public void scrollTopIsDisplayed() throws InterruptedException {
         jse.executeScript("window.scrollBy(0,500)");
         sleep(3000);
