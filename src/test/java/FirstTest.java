@@ -17,6 +17,7 @@ import static java.time.Duration.*;
 public class FirstTest {
     WebDriver driver;
     WebElement contactButton;
+    WebElement clientsButton;
     JavascriptExecutor jse;
     @BeforeClass
     public void setUp(){
@@ -34,7 +35,11 @@ public class FirstTest {
         contactButton=driver.findElement(By.xpath("//*[@id=\"ast-desktop-header\"]/div[1]/div/div/div/div[2]/div[2]/div"));
         Assert.assertTrue(contactButton.isDisplayed());
     }
-
+    @Test(priority = 1)
+    public void clientsButtonIsDisplayed()  {
+        clientsButton=driver.findElement(By.xpath("//*[@id=\"menu-item-420\"]/a"));
+        Assert.assertTrue(clientsButton.isDisplayed());
+    }
     @Test(priority = 2)
     public void contactButtonTextIsCorrect(){
         Assert.assertEquals(contactButton.getText(),"Contact");
